@@ -1,0 +1,13 @@
+{
+  "name": "ts-markdown-docs-agents",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "shiki": "^3.13.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
