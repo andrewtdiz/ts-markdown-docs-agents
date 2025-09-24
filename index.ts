@@ -1,5 +1,5 @@
 import { Hono } from 'hono'
-import home from "./content/home.ts";
+import home from "./src/content/home";
 
 const app = new Hono()
 
