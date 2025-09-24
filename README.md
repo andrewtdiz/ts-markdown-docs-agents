@@ -1,15 +1,28 @@
-# ts-markdown-docs-agents
+Prerequisites:
 
-To install dependencies:
+- [Vercel CLI](https://vercel.com/docs/cli) installed globally
 
-```bash
-bun install
+To develop locally:
+
+```
+npm install
+vc dev
 ```
 
-To run:
-
-```bash
-bun run index.ts
+```
+open http://localhost:3000
 ```
 
-This project was created using `bun init` in bun v1.2.19. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+To build locally:
+
+```
+npm install
+vc build
+```
+
+To deploy:
+
+```
+npm install
+vc deploy
+```
